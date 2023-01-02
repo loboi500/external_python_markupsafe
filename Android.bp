@@ -1,33 +1,3 @@
-package {
-    default_applicable_licenses: ["external_python_markupsafe_license"],
-}
-
-// Added automatically by a large-scale-change
-// See: http://go/android-license-faq
-license {
-    name: "external_python_markupsafe_license",
-    visibility: [":__subpackages__"],
-    license_kinds: [
-        "SPDX-license-identifier-BSD",
-    ],
-    license_text: [
-        "LICENSE.rst",
-    ],
-}
-
-python_library {
-    name: "py-markupsafe",
-    host_supported: true,
-    srcs: [
-        "src/markupsafe/__init__.py",
-        "src/markupsafe/_native.py",
-    ],
-    version: {
-        py2: {
-            enabled: true,
-        },
-        py3: {
-            enabled: true,
-        },
-    },
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:72e82aca10642a2a2c3131c657a047b434ac3f39443375766c35d720335e98f3
+size 681

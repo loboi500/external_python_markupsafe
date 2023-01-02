@@ -1,7 +1,3 @@
-include CHANGES.rst
-include tox.ini
-include requirements/*.txt
-graft docs
-prune docs/_build
-graft tests
-global-exclude *.pyc
+version https://git-lfs.github.com/spec/v1
+oid sha256:3de3877a5fdd270821e28d38e8bbf57e401b333bd927d354b26b02fce71706ff
+size 125
